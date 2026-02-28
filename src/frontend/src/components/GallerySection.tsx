@@ -4,7 +4,7 @@ const galleryItems = [
   {
     id: "g1",
     image:
-      "/assets/uploads/Screenshot_2026-02-27-20-19-19-856_com.google.android.googlequicksearchbox-edit-2.jpg",
+      "/assets/uploads/Screenshot_2026-02-28-07-49-54-076_com.google.android.googlequicksearchbox-edit-1.jpg",
     title: "Volas N Koza Salon",
     category: "Our Salon",
     wide: true,
@@ -12,37 +12,33 @@ const galleryItems = [
   {
     id: "g2",
     image:
-      "/assets/uploads/Screenshot_2026-02-27-20-19-59-825_com.google.android.googlequicksearchbox-edit-1.jpg",
+      "/assets/uploads/Screenshot_2026-02-27-20-19-59-825_com.google.android.googlequicksearchbox-edit-1-2.jpg",
     title: "Salon Interior",
     category: "Interior",
     wide: false,
   },
   {
     id: "g3",
-    image: "/assets/generated/service-bridal.dim_600x400.jpg",
-    title: "Bridal Transformation",
-    category: "Bridal",
+    image:
+      "/assets/uploads/Screenshot_2026-02-28-07-50-50-887_com.google.android.googlequicksearchbox-edit-3.jpg",
+    title: "Curly Hair Styling",
+    category: "Hair Styling",
     wide: false,
   },
   {
     id: "g4",
-    image: "/assets/generated/service-treatment.dim_600x400.jpg",
-    title: "Hair Spa & Glow",
-    category: "Hair",
+    image:
+      "/assets/uploads/Screenshot_2026-02-28-07-50-36-568_com.google.android.googlequicksearchbox-edit-4.jpg",
+    title: "Purple Highlights",
+    category: "Hair Color",
     wide: false,
   },
   {
     id: "g5",
-    image: "/assets/generated/service-coloring.dim_600x400.jpg",
-    title: "Facial Glow Treatment",
-    category: "Facial",
-    wide: false,
-  },
-  {
-    id: "g6",
-    image: "/assets/generated/service-styling.dim_600x400.jpg",
-    title: "Nail Art Design",
-    category: "Nails",
+    image:
+      "/assets/uploads/Screenshot_2026-02-28-07-51-14-213_com.google.android.googlequicksearchbox-edit-5.jpg",
+    title: "Mocha & Honey Highlights",
+    category: "Hair Color",
     wide: false,
   },
 ];

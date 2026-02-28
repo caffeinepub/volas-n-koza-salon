@@ -4,21 +4,20 @@ import { useGetTestimonials } from "../hooks/useQueries";
 
 const FALLBACK_TESTIMONIALS: Omit<Testimonial, "date">[] = [
   {
-    name: "Priya Sharma",
-    reviewText:
-      "Got my bridal makeup done here for my wedding and I was absolutely glowing! The team was so professional and patient. Every guest kept complimenting how naturally beautiful I looked. Highly recommend!",
+    name: "Google Reviewer",
+    reviewText: "Nice and clean place, welcoming staff, service is best.",
     rating: BigInt(5),
   },
   {
-    name: "Anjali Verma",
+    name: "Google Reviewer",
     reviewText:
-      "I've been coming to Volas N Koza for threading and facials for 2 years. The staff is so skilled and hygienic. My skin has never looked better. Best beauty parlour in Haridwar by far!",
-    rating: BigInt(5),
+      "Good for the area and location. Offers a decent quality service at a reasonable price. Would recommend to anyone nearby.",
+    rating: BigInt(4),
   },
   {
-    name: "Meena Gupta",
+    name: "Google Reviewer",
     reviewText:
-      "The hair spa treatment completely transformed my damaged hair. So smooth and shiny after just one session. The parlour is so clean and modern. Will definitely be back every month!",
+      "Super professional staff... super relaxing facial and awesome nail art. Loved the experience from start to finish!",
     rating: BigInt(5),
   },
 ];
@@ -110,6 +109,26 @@ export function TestimonialsSection() {
             What Our Clients Say
           </h2>
           <div className="gold-divider mx-auto" style={{ maxWidth: "120px" }} />
+          <div
+            className="inline-flex items-center gap-2 mt-6 px-5 py-2 font-poppins text-xs tracking-wide"
+            style={{
+              border: "1px solid rgba(212, 175, 55, 0.35)",
+              borderRadius: "2px",
+              color: "#D4AF37",
+              background: "rgba(212, 175, 55, 0.05)",
+            }}
+          >
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="#D4AF37"
+              aria-hidden="true"
+            >
+              <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" />
+            </svg>
+            4.1 Google Rating · 379+ Reviews
+          </div>
         </div>
 
         {/* Testimonials Grid */}
